@@ -33,9 +33,15 @@ quotes = [
     'Luck is just when preparation meets opportunity',
     'The more aware you are of your stressful thoughts and feelings, the more you can reframe how you process them - Karl Staib',
     'Ever tried. Ever failed. No matter. Try again. Fail again. Fail BETTER.',
-    'We tell people to follow their dreams, but you can only dream of what you can imagine - Trevor Noah'
+    'We tell people to follow their dreams, but you can only dream of what you can imagine - Trevor Noah',
+    'The rich invest in time, the poor invest in money. - Warren Buffet',
+    'The more you learn, the more you earn. - Warren Buffet'.
+    'Everything negative - pressure, challenges - is all an opportunity for me to rise. - Kobe Bryant',
+    'You have to see failure as the beginning and the middle, but never entertain it as an end - Jessica Herrin',
+    'If we tried to think of a good idea, we would not have been able to think of a good idea. You just have to find the solution for a problem in your own life. - Brian Chesky'
 ]
 
+# twitter doesn't allow tweets of exact duplicate text so this appends the date to ensure every tweet is unique
 def tweet_quote():
     api.update_status(str(current_date) + ' // ' + random.choice(quotes))
 
