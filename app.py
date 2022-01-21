@@ -39,6 +39,7 @@ quotes = [
     'Everything negative - pressure, challenges - is all an opportunity for me to rise. - Kobe Bryant',
     'You have to see failure as the beginning and the middle, but never entertain it as an end - Jessica Herrin',
     'If we tried to think of a good idea, we would not have been able to think of a good idea. You just have to find the solution for a problem in your own life. - Brian Chesky',
+    'If you are not willing to downgrade your lifestyle for a year to have a lifestyle you want forever, you care too much about what other people think. - Jim Carrey',
 ]
 
 # twitter doesn't allow tweets of exact duplicate text so this appends the date to ensure every tweet is unique
